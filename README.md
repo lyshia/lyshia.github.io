@@ -56,14 +56,14 @@ Time frames are also key in the development cycle. You have limited time to code
 #### MVP
 
 | Component          | Priority | Estimated Time | Actual Time |
-| ------------------ | :------: | :------------: | :---------: | --- |
+| ------------------ | :------: | :------------: | :---------: |
 | Hamburger Menu     |    H     |      1hr       |     hr      |
 | Nav Bar            |    H     |      1hr       |     hr      |
 | About Media        |    H     |      1hr       |     hr      |
 | Projects           |    H     |      1hr       |     hr      |
 | Carousel           |    M     |      4hr       |     hr      |
 | Contact form API   |    H     |      4hrs      |     hr      |
-| Styling            |    H     |      5hr       |     hr      | hr  |
+| Styling            |    H     |      5hr       |     hr      |
 | Footer             |    H     |      1hr       |     hr      |
 | Social Media Icons |    L     |      1hr       |     hr      |
 | Total              |    H     |     19hrs      |     hrs     |
@@ -71,8 +71,8 @@ Time frames are also key in the development cycle. You have limited time to code
 #### PostMVP
 
 | Component | Priority | Estimated Time | Actual Time |
-| --------- | :------: | :------------: | :---------: | --- |
-| Bootstrap |    M     |      4hr       |     -hr     | hr  |
+| --------- | :------: | :------------: | :---------: |
+| Bootstrap |    M     |      4hr       |     -hr     |
 | Animation |    L     |      4hr       |     hr      |
 | Total     |    H     |     12hrs      |     hrs     |
 
