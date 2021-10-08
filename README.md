@@ -17,31 +17,16 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I will be creating a single page application portfolio website with an about me, projects and contacts section. The page will be reactive, and scale based on the type of device being viewed from. End user will be able to view my projects on a carousel, and use a contact form if they wish to know more.
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
-
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+- [Mobile](https://i.imgur.com/71QYtf4.jpg)
+- [Desktop](https://i.imgur.com/NRrnBO9.jpg)
 
 ## Time/Priority Matrix
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
-
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix. This involves drawing a a square. In the middle of the square, on the x axis draw a line. The most left part of the line should start with 0hrs and the end of the line should include 2hrs. This line will be used to estimate how much time any one feature will take to complete.
-
-Now draw a vertical line on the y axis. The top of this line should have `High` and the bottom `Low`. This line will be used to assign a priority to to each feature you wish to include in the project.
-
-Now create a separate list starting with A and assign it one of the features. Continue to assign each feature a letter. Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter.
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
+[Link](https://i.imgur.com/MzyLPer.png)
 
 ### MVP/PostMVP - 5min
 
@@ -49,14 +34,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page
-- Allow user to choose favorites
-- Save their choices in firebase
+- Nav Bar ( full page)
+- Hamburger Menu (mobile)
+- About Me
+- Projects
+- Carousel
+- Contact
+- Responsive Design
 
 #### PostMVP
 
-- Anything else that is not MVP
+- Bootstrap
+- Animation
 
 ## Functional Components
 
@@ -66,29 +55,26 @@ Time frames are also key in the development cycle. You have limited time to code
 
 #### MVP
 
-| Component               | Priority | Estimated Time | Actual Time |
-| ----------------------- | :------: | :------------: | :---------: | --- |
-| Hamburger               |    H     |      1hr       |     hr      |
-| Project Previews        |    H     |      3hr       |     hr      |
-| Regular Nav             |    H     |      1hr       |     hr      |
-| Adding Form             |    H     |     1.5hr      |     hr      |
-| Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      3hrs      |     hr      |
-| Responsive              |    H     |      3hr       |     hr      | hr  |
-| Social Media Icons      |    L     |      1hr       |     hr      |
-| Total                   |    H     |    15.5hrs     |     hrs     |
+| Component          | Priority | Estimated Time | Actual Time |
+| ------------------ | :------: | :------------: | :---------: | --- |
+| Hamburger Menu     |    H     |      1hr       |     hr      |
+| Nav Bar            |    H     |      1hr       |     hr      |
+| About Media        |    H     |      1hr       |     hr      |
+| Projects           |    H     |      1hr       |     hr      |
+| Carousel           |    M     |      4hr       |     hr      |
+| Contact form API   |    H     |      4hrs      |     hr      |
+| Styling            |    H     |      5hr       |     hr      | hr  |
+| Footer             |    H     |      1hr       |     hr      |
+| Social Media Icons |    L     |      1hr       |     hr      |
+| Total              |    H     |     19hrs      |     hrs     |
 
 #### PostMVP
 
-| Component             | Priority | Estimated Time | Actual Time |
-| --------------------- | :------: | :------------: | :---------: | --- |
-| Project Hover         |    L     |      3hr       |     -hr     | hr  |
-| Banner letters wiggle |    L     |      1hr       |     hr      |
-| Interactive Banner    |    M     |      4hr       |     hr      |
-| Materialize           |    H     |      4hr       |     -hr     | hr  |
-| Bootstrap             |    H     |      4hr       |     hr      |
-| Make own icon         |    L     |      4hr       |     hr      |
-| Total                 |    H     |     20hrs      |     hrs     |
+| Component | Priority | Estimated Time | Actual Time |
+| --------- | :------: | :------------: | :---------: | --- |
+| Bootstrap |    M     |      4hr       |     -hr     | hr  |
+| Animation |    L     |      4hr       |     hr      |
+| Total     |    H     |     12hrs      |     hrs     |
 
 ## Additional Libraries
 
