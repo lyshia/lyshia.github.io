@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Description                          | Incomplete |
-| Day 1 | Wireframes / Priority Matrix / Timeline      | Incomplete |
+| Day 1 | Project Description                          | Complete   |
+| Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
 | Day 3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
 | Day 4 | MVP & Bug Fixes                              | Incomplete |
 | Day 5 | Final Touches                                | Incomplete |
@@ -57,8 +57,8 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component          | Priority | Estimated Time | Actual Time |
 | ------------------ | :------: | :------------: | :---------: |
-| Hamburger Menu     |    H     |      1hr       |     hr      |
-| Nav Bar            |    H     |      1hr       |     hr      |
+| Hamburger Menu     |    H     |      1hr       |    .5hr     |
+| Nav Bar            |    H     |      1hr       |     1hr     |
 | About Media        |    H     |      1hr       |     hr      |
 | Projects           |    H     |      1hr       |     hr      |
 | Carousel           |    M     |      4hr       |     hr      |
@@ -78,7 +78,9 @@ Time frames are also key in the development cycle. You have limited time to code
 
 ## Additional Libraries
 
-Use this section to list all supporting libraries and thier role in the project.
+Use this section to list all supporting libraries and their role in the project.
+
+Bootstrap 
 
 ## Code Snippet
 

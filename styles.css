@@ -1,0 +1,10 @@
+.carousel img {
+	height: 400px;
+	opacity: 75%;
+}
+
+.carousel-caption {
+	background-color: rgb(0, 0, 0, 0.75);
+	opacity: 75%;
+	color: white !important;
+}
