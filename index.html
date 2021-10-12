@@ -11,6 +11,7 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="styles.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<title>Alyshia.Codes</title>
 	</head>
 	<body>
@@ -51,11 +52,17 @@
 			<div class="container">
 				<div class="row cold-md-8" id="about">
 					<h3>ABOUT ME!</h3>
-					<p>Full time software developer, part time chicken tender.</p>
-					<img src="img/chicken.jpg">
+					<p class="row col-md-8">
+						Full stack software developer, part time chicken tender.
+					</p>
+					<img
+						src="img/portrait.jpeg"
+						id="alyshiaPortrait"
+						class="row col-md-4"
+					/>
 				</div>
 
-			<!-- Projects	 -->
+				<!-- Projects	 -->
 				<div class="row cold-md-8" id="projects">
 					<h3>PROJECTS</h3>
 
@@ -88,20 +95,14 @@
 						</div>
 						<div class="carousel-inner">
 							<div class="carousel-item active" data-bs-interval="10000">
-								<img
-									src="img/startupMatchmaker.jpg"
-									class="d-block w-100"
-								/>
+								<img src="img/startupMatchmaker.jpg" class="d-block w-100" />
 								<div class="carousel-caption d-none d-md-block">
 									<h5>Startup Matchmaker</h5>
 									<p>Developer, meet Designer.</p>
 								</div>
 							</div>
 							<div class="carousel-item" data-bs-interval="2000">
-								<img
-									src="img/sartresList.jpg"
-									class="d-block w-100"
-								/>
+								<img src="img/sartresList.jpg" class="d-block w-100" />
 								<div class="carousel-caption d-none d-md-block">
 									<h5>Sartre's List</h5>
 									<p>Learn 2 dress more better.</p>

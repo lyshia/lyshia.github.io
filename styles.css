@@ -8,3 +8,20 @@
 	opacity: 75%;
 	color: white !important;
 }
+
+.navbar {
+	background-color: #463C2C;
+	
+}
+
+.nav-item {
+color: #FDF6E6 ;
+}
+
+#alyshiaPortrait {
+	border-radius: 50%;
+}
+
+p {
+	font-size: 18px;
+}
