@@ -15,12 +15,12 @@
 	color: white !important;
 }
 
-.navbar-custom .navbar-dark {
+.navbar{
 	background-color: #717674;
 }
 
-.navbar-text {
-	color: #fdf6e6;
+.nav-link {
+	color: #E5E8E7;
 }
 
 .portrait {
