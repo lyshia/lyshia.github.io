@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
 #backgroundContainer {
 	background-image: url(img/background.jpeg);
 	background-size: cover;
@@ -8,6 +10,7 @@
 	height: 400px;
 	opacity: 75%;
 }
+
 
 .carousel-caption {
 	background-color: rgb(0, 0, 0, 0.75);
@@ -27,6 +30,24 @@
 	border-radius: 50%;
 }
 
-p {
+h2 {
+	font-size: 48px;
+	font-family: 'Bebas Neue', cursive;
+	color:#717674;
+}
+h3 {
+	text-align: center;
+
+}
+.myName {
+	font-family: 'Bebas Neue', cursive;
+}
+#about p {
 	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
 }
