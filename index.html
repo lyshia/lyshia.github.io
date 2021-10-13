@@ -10,8 +10,9 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="styles.css" />
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="styles.css" />
 		<title>Alyshia.Codes</title>
 	</head>
 	<body>
@@ -48,6 +49,7 @@
 					</ul>
 				</div>
 			</nav>
+			<div class="background" id="backgroundContainer"></div>
 			<!-- About -->
 			<div class="container">
 				<div class="row cold-md-8" id="about">
@@ -143,8 +145,59 @@
 					</div>
 				</div>
 				<!-- Contact -->
-				<div class="row cold-md-8" id="contact">
+				<div class="row col-md-8" id="contact">
 					<h3>CONTACT</h3>
+					<p>Let's be friends!</p>
+
+					<form
+						action="https://submit-form.com/4l4mtNaX"
+						class="row col-md-4"
+						id="contactForm"
+					>
+						<div
+							class="g-recaptcha"
+							data-sitekey="6Le7ysgcAAAAAKpq12V59pHnyropBseN2dJ-md5G"
+							data-callback="callback"
+						></div>
+						
+						<div class="mb-4">
+							<label class="form-label" for="name">Name</label>
+							<input
+								class="form-control"
+								id="name"
+								type="text"
+								placeholder="Name"
+							/>
+						</div>
+
+						<div class="mb-4">
+							<label class="form-label" for="emailAddress">Email Address</label>
+							<input
+								class="form-control"
+								id="emailAddress"
+								type="email"
+								placeholder="Email Address"
+							/>
+						</div>
+
+						
+						<div class="mb-4">
+							<label class="form-label" for="message">Message</label>
+							<textarea
+								class="form-control"
+								id="message"
+								type="text"
+								placeholder="Message"
+								style="height: 10rem"
+							></textarea>
+						</div>
+
+						<div class="d-grid" >
+							<button class="btn btn-primary btn-md" id="submitButton" type="submit">
+								Submit
+							</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>

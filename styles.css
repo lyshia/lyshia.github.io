@@ -1,3 +1,9 @@
+#backgroundContainer {
+	background-image: url(img/background.jpeg);
+	background-size: cover;
+	height: 300px;
+}
+
 .carousel img {
 	height: 400px;
 	opacity: 75%;
@@ -9,13 +15,12 @@
 	color: white !important;
 }
 
-.navbar {
-	background-color: #463C2C;
-	
+.navbar-custom .navbar-dark {
+	background-color: #717674;
 }
 
-.nav-item {
-color: #FDF6E6 ;
+.navbar-text {
+	color: #fdf6e6;
 }
 
 .portrait {
