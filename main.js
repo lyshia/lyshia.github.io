@@ -18,15 +18,21 @@ $('#submitButton').click(function () {
 
 // load "hello" file and then print out random hello
 // API didn't do what I liked, so I parsed from https://fourtonfish.com/project/hellosalut-api/
- setInterval ( function(){
-$.getJSON('hello.json', function (response) {
+
+const hello = () =>  {$.getJSON('hello.json', function (response) {
 	//get length of the array
-	let randomIndex = Math.floor(Math.random() * response.hello.length)
+	let randomIndex = Math.floor(Math.random() * response.hello.length);
 	// can't read HTML code, so have to parse the selection to HTML
-	let wordstoHTML = $.parseHTML(response.hello[randomIndex])
+	let helloToHTML = $.parseHTML(response.hello[randomIndex]);
 	//print out the selected word in HTML
-	$('#helloWorld').text(' ' + wordstoHTML[0].textContent + '');
-})}, 5000);
+	$('#helloWorld').text(' ' + helloToHTML[0].textContent + '');
+})};
+//call hello function on load
+hello();
+//call function again on interval 
+setInterval(function () {
+	hello()
+}, 5000);
 
 //set profile picture
 $('#alyshiaPortrait').attr('src', 'img/portrait.jpeg');
