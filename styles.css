@@ -74,4 +74,9 @@ li {
 		flex-basis: 0%;
 		padding-right: 15px;
 	}
+
+	#contactForm {
+		float:right;
+		margin-left: 80%
+	}
 }

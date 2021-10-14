@@ -29,7 +29,7 @@ $('#alyshiaPortrait').mouseout(function () {
 });
 
 //add icons to experience list
-const brands  = [
+const logos  = [
 'img/brands/angularjs.png',
 'img/brands/bitbucket-48x48-2284628.png',
 'img/brands/css-48x48-2284638.png',
@@ -41,6 +41,29 @@ const brands  = [
 'img/brands/react-48x48-2284721.png'
 ];
 //loop to show each brand i have experience with
-$.each( brands, function(index, brand) {
- $('#experienceList').append('<li><img src=' + brand + '></li>');
+$.each( logos, function(index, logo) {
+ $('#experienceList').append('<li><img src=' + logo + '></li>');
+})
+
+const $socials = [
+	{
+		name: 'linkedin',
+		image:'img/brands/linkedin-48x48-2284689.png',
+		url:'https://www.linkedin.com/in/alyshiabentley/'
+	},
+	{
+		name: 'github',
+	    image:'img/brands/github-48x48-2284658.png', 
+		url:'https://github.com/lyshia',
+	},
+	{
+		name: 'twitter',
+		image: 'img/brands/twitter-48x48-2284759.png',
+		url:'https://twitter.com/BentleyAlyshia'
+	}
+];
+
+
+$socials.forEach( social => {
+	$('#socialsList').append('<li><a href=' + social.url +'><img src=' + social.image + '></a></li>');
 })
