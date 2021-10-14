@@ -25,6 +25,11 @@
 	color: #e5e8e7;
 }
 
+#helloWorld {
+	color:goldenrod;
+	font-size:  24px;
+}
+
 .portrait {
 	border-radius: 50%;
 	margin: auto;
