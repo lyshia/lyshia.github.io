@@ -12,6 +12,7 @@
 		/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<link rel="stylesheet" href="styles.css" />
 		<title>Alyshia.Codes</title>
 	</head>
@@ -50,15 +51,16 @@
 				</div>
 			</nav>
 			<div class="background" id="backgroundContainer">
-				<p id ="helloWorld"></p></div>
+				<p id="helloWorld"></p>
+			</div>
 			<!-- About -->
 			<div class="container">
 				<div class="row cold-md-6" id="about">
 					<h2>ABOUT ME</h2>
 					<section class="col row-md-8">
 						<h3 class="myName">Alyshia Bentley</h3>
-						
-						<p>Full stack software developer, part time chicken tender. </p>
+
+						<p>Full stack software developer, part time chicken tender.</p>
 						<p>
 							I have five years in the tech industry, and now I'm focused on
 							building life-changing products
@@ -152,10 +154,11 @@
 					</div>
 				</div>
 				<!-- Contact -->
-				<div class="row col-md-8" id="contact">
+				<div class="row col-md-12" id="contact">
 					<h2>CONTACT</h2>
+					<p>Questions? Comments? Inquiries?</p>
 					<p>Let's connect!</p>
-					<ul id="socialsList"></ul>
+
 					<form
 						action="https://submit-form.com/4l4mtNaX"
 						class="row col-md-6"
@@ -203,11 +206,13 @@
 								class="btn btn-primary btn-md"
 								id="submitButton"
 								type="submit"
+								disabled
 							>
 								Submit
 							</button>
 						</div>
 					</form>
+					<ul class="social" id="socialsList"></ul>
 				</div>
 				<footer>
 					<a href="https://iconscout.com/icon-pack/brand" target="_blank"

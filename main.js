@@ -16,6 +16,11 @@ $('#submitButton').click(function () {
 	// });
 });
 
+function callback() {
+	const submitButton = document.getElementById('submit-button');
+	submitButton.removeAttribute('disabled');
+}
+
 // load "hello" file and then print out random hello
 // API didn't do what I liked, so I parsed how to say "hello" in different languages from https://fourtonfish.com/project/hellosalut-api/
 
@@ -64,6 +69,7 @@ $.each(logos, function (index, logo) {
 	$('#experienceList').append('<li><img src=' + logo + '></li>');
 });
 
+//object that has my social media icons and urls
 const $socials = [
 	{
 		name: 'linkedin',
@@ -82,6 +88,8 @@ const $socials = [
 	},
 ];
 
+
+// print out each icon with link
 $socials.forEach((social) => {
 	$('#socialsList').append(
 		'<li><a href=' +
