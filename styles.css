@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 #backgroundContainer {
-	background-image: url(img/background.jpeg); 
+	background-image: url(img/background.jpeg);
 	background-size: cover;
 	height: 300px;
 }
@@ -25,9 +25,16 @@
 	color: #e5e8e7;
 }
 
-#helloWorld {
-	color:goldenrod;
-	font-size:  24px;
+.background {
+	position: relative;
+}
+
+.background p {
+	font-size: 48px;
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	color: #e5e8e7;
 }
 
 .portrait {
@@ -65,14 +72,23 @@ li {
 	padding-top: 20px;
 }
 
+.btn-primary {
+	background-color: #717674;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+footer a {
+	color: #717674;
+}
 
 /* monitors */
-@media  (min-width: 1024px) {
-
+@media (min-width: 1024px) {
 	ul {
 		list-style: none;
 		display: flex;
-	
 	}
 
 	li {
@@ -81,7 +97,14 @@ li {
 	}
 
 	#contactForm {
-		float:right;
-		margin-left: 80%
+		float: right;
+		margin-left: 80%;
 	}
+
+	.background p {
+	position: absolute;
+	bottom: 0;
+	left: 55%;
+	font-size: 64px;
+}
 }

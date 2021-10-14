@@ -17,7 +17,7 @@ $('#submitButton').click(function () {
 });
 
 // load "hello" file and then print out random hello
-// API didn't do what I liked, so I parsed from https://fourtonfish.com/project/hellosalut-api/
+// API didn't do what I liked, so I parsed how to say "hello" in different languages from https://fourtonfish.com/project/hellosalut-api/
 
 const hello = () =>  {$.getJSON('hello.json', function (response) {
 	//get length of the array
