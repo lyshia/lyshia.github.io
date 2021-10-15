@@ -18,10 +18,11 @@
 		<title>Alyshia.Codes</title>
 	</head>
 	<body>
+		
 		<div id="main">
 			<!-- Navigation  -->
 			<nav class="navbar navbar-expand-lg">
-				<a class="navbar-brand" href="#">Icon</a>
+				<img class="navbar-brand" id="logo" />
 				<button
 					class="navbar-toggler navbar-dark"
 					type="button"
@@ -33,7 +34,7 @@
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
+				<!-- navbar items-->
 				<div class="collapse navbar-collapse" id="navbarItems">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
@@ -51,23 +52,34 @@
 					</ul>
 				</div>
 			</nav>
+			<!-- top background-->
 			<div class="background" id="backgroundContainer">
 				<p id="helloWorld"></p>
 			</div>
-			<!-- About -->
+			<!-- About / Projects /Contact -->
 			<div class="container">
+				<!-- About -->
 				<div class="row cold-md-6" id="about">
+					
 					<h2>ABOUT ME</h2>
 					<section class="col row-md-8">
 						<h3 class="myName">Alyshia Bentley</h3>
 
-						<p>Full stack software developer, part time chicken tender.</p>
+						<p>Full-stack software developer, part-time chicken tender.</p>
 						<p>
-							I have five years in the tech industry, and now I'm focused on
-							building life-changing products
+							Located just out of Seattle, I have five years of experience in
+							the tech industry. With empowerment in mind, my mission directives
+							are shifting from support to building products to improve the
+							lives of customers.
 						</p>
+						<p>
+							Outside of coding, I enjoy working on my urban homestead, skiing,
+							and reading.
+						</p>
+						<p class="top-values"><span>Top values: </span> Empathy, Tenacity, Transparency</p>
+
 						<section class="tools">
-							<h5>Experienced in</h5>
+							<h5>Experienced in:</h5>
 							<ul id="experienceList"></ul>
 						</section>
 					</section>
@@ -157,9 +169,10 @@
 				<!-- Contact -->
 				<div class="row col-md-12" id="contact">
 					<h2>CONTACT</h2>
-					<p>Questions? Comments? Inquiries?</p>
-					<p>Let's connect!</p>
-
+					<container class="contactText">
+						<p>Questions? Comments? Inquiries?</p>
+						<p>Let's connect!</p>
+					</container>
 					<form
 						action="https://submit-form.com/4l4mtNaX"
 						class="row col-md-6"

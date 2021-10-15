@@ -10,9 +10,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | ----- | -------------------------------------------- | ---------- |
 | Day 1 | Project Description                          | Complete   |
 | Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
-| Day 3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
-| Day 4 | MVP & Bug Fixes                              | Incomplete |
-| Day 5 | Final Touches                                | Incomplete |
+| Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
+| Day 4 | MVP & Bug Fixes                              | Complete   |
+| Day 5 | Final Touches                                | Complete   |
 | Day 6 | Present                                      | Incomplete |
 
 ## Project Description
@@ -59,28 +59,28 @@ Time frames are also key in the development cycle. You have limited time to code
 | ------------------ | :------: | :------------: | :---------: |
 | Hamburger Menu     |    H     |      1hr       |    .5hr     |
 | Nav Bar            |    H     |      1hr       |     1hr     |
-| About Media        |    H     |      1hr       |     hr      |
-| Projects           |    H     |      1hr       |     hr      |
-| Carousel           |    M     |      4hr       |     hr      |
-| Contact form API   |    H     |      4hrs      |     hr      |
-| Styling            |    H     |      5hr       |     hr      |
-| Footer             |    H     |      1hr       |     hr      |
-| Social Media Icons |    L     |      1hr       |     hr      |
-| Total              |    H     |     19hrs      |     hrs     |
+| About Media        |    H     |      1hr       |     1hr     |
+| Projects           |    H     |      1hr       |     1hr     |
+| Carousel           |    M     |      4hr       |     3hr     |
+| Contact form API   |    H     |      4hrs      |     4hr     |
+| Styling            |    H     |      5hr       |     9hr     |
+| Footer             |    H     |      1hr       |     1hr     |
+| Social Media Icons |    L     |      1hr       |     1hr     |
+| Total              |    H     |     19hrs      |     23.5hrs     |
 
 #### PostMVP
 
 | Component | Priority | Estimated Time | Actual Time |
 | --------- | :------: | :------------: | :---------: |
-| Bootstrap |    M     |      4hr       |     -hr     |
-| Animation |    L     |      4hr       |     hr      |
-| Total     |    H     |     12hrs      |     hrs     |
+| Bootstrap |    M     |      4hr       |     2hr     |
+| Animation |    L     |      4hr       |     3hr     |
+| Total     |    H     |     12hrs      |    7hrs     |
 
 ## Additional Libraries
 
 Use this section to list all supporting libraries and their role in the project.
 
-Bootstrap 
+Bootstrap
 Formspark.io
 
 ## Code Snippet

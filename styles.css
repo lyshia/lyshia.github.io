@@ -21,6 +21,10 @@
 	background-color: #717674;
 }
 
+.navbar-brand {
+	padding-left: 10px;
+}
+
 .nav-link {
 	color: #e5e8e7;
 }
@@ -42,6 +46,10 @@
 	margin: auto;
 }
 
+span {
+	font-weight: bold;
+}
+
 h2 {
 	font-size: 48px;
 	font-family: 'Bebas Neue', cursive;
@@ -53,7 +61,7 @@ h3 {
 .myName {
 	font-family: 'Bebas Neue', cursive;
 }
-#about p {
+p {
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
@@ -72,12 +80,16 @@ li {
 	padding-top: 20px;
 }
 
+.tools h5 {
+	margin-left: 29%;
+}
+
 .btn-primary:disabled {
 	background-color: #717674;
 }
 
 .btn-primary {
-	background-color:black;
+	background-color: black;
 }
 
 footer {
@@ -102,8 +114,17 @@ footer a {
 		font-size: 64px;
 	}
 
+	.tools h5 {
+		text-align:center;
+		margin-right: 30%;
+	}
+
+	#experienceList {
+		padding-left:18%;
+	}
+
 	#contact {
-		display:flex;
+		display: flex;
 		flex-wrap: wrap;
 	}
 
@@ -117,9 +138,25 @@ footer a {
 
 	#contact ul {
 		display: block;
+		text-align: right;
 	}
 
 	#contact li {
-		padding-bottom: 40px;
+		padding-bottom: 60px;
+	}
+
+	.contactText {
+		display: flex;
+	}
+
+	.contactText p {
+		margin-right: 0px;
+		font-size: 24px;
+		font-family: 'Bebas Neue', cursive;
+	}
+
+	.contactText p:nth-child(1) {
+		flex: 3;
+		margin-right: 40px;
 	}
 }

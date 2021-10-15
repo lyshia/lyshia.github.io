@@ -60,6 +60,8 @@ $('#alyshiaPortrait').mouseout(function () {
 	$(this).attr('src', 'img/portrait.jpeg');
 });
 
+$('#logo').attr('src', 'img/chicken.png');
+
 //add icons to experience list
 const logos = [
 	'img/brands/angularjs.png',
