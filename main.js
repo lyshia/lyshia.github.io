@@ -1,24 +1,26 @@
-const msgText = document.getElementById('message').innerText;
+const $submitButton = document.getElementById('submitButton');
 
-      document
-				.getElementById('submitButton')
-				.addEventListener('click', function () {
-					axios
-						.post('https://submit-form.com/4l4mtNaX', {
-							message: 'Hello, World',
-							'g-recaptcha-response': grecaptcha.getResponse(),
-						})
-						.then(function (response) {
-							console.log(response);
-						})
-						.catch(function (response) {
-							console.error(response);
-						});
-				});
-
-
-
-
+// $submitButton.click(function () {
+// 	event.preventDefault();
+// 	const userName = document.getElementById('name').val();
+// 	const userMessage = document.getElementById('message').val();
+// 	console.log(userMessage);
+// 	// axios
+// 	// 	.post('https://submit-form.com/4l4mtNaX', {
+// 	// 		message: userMessage,
+// 	// 		// 'g-recaptcha-response': grecaptcha.getResponse(),
+// 	// 		_email: {
+// 	// 			from: '' + userName + '',
+// 	// 			subject: ' Email Inquiry',
+// 	// 		},
+// 	// 	})
+// 	// 	.then(function (response) {
+// 	// 		console.log(response);
+// 	// 	})
+// 	// 	.catch(function (response) {
+// 	// 		console.error(response);
+// 	// 	});
+// });
 // $('#submitButton').click(function () {
 // 	$.post(
 // 		'https://submit-form.com/4l4mtNaX',
@@ -37,28 +39,28 @@ const msgText = document.getElementById('message').innerText;
 
 //remove inability to submit until after click recaptcha
 
-
-function callback() {
-	const submitButton = document.getElementById('submit-button');
-	submitButton.removeAttribute('disabled');
-}
+// function callback() {
+// 	$submitButton.removeAttribute('disabled');
+// }
 
 // load "hello" file and then print out random hello
 // API didn't do what I liked, so I parsed how to say "hello" in different languages from https://fourtonfish.com/project/hellosalut-api/
 
-const hello = () =>  {$.getJSON('hello.json', function (response) {
-	//get length of the array
-	let randomIndex = Math.floor(Math.random() * response.hello.length);
-	// can't read HTML code, so have to parse the selection to HTML
-	let helloToHTML = $.parseHTML(response.hello[randomIndex]);
-	//print out the selected word in HTML
-	$('#helloWorld').text(' ' + helloToHTML[0].textContent + '');
-})};
+const hello = () => {
+	$.getJSON('hello.json', function (response) {
+		//get length of the array
+		let randomIndex = Math.floor(Math.random() * response.hello.length);
+		// can't read HTML code, so have to parse the selection to HTML
+		let helloToHTML = $.parseHTML(response.hello[randomIndex]);
+		//print out the selected word in HTML
+		$('#helloWorld').text(' ' + helloToHTML[0].textContent + '');
+	});
+};
 //call hello function on load
 hello();
-//call function again on interval 
+//call function again on interval
 setInterval(function () {
-	hello()
+	hello();
 }, 5000);
 
 //set profile picture
@@ -109,7 +111,6 @@ const $socials = [
 		url: 'https://twitter.com/BentleyAlyshia',
 	},
 ];
-
 
 // print out each icon with link
 $socials.forEach((social) => {
