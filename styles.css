@@ -72,8 +72,12 @@ li {
 	padding-top: 20px;
 }
 
-.btn-primary {
+.btn-primary:disabled {
 	background-color: #717674;
+}
+
+.btn-primary {
+	background-color:black;
 }
 
 footer {

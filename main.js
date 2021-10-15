@@ -1,47 +1,31 @@
-const $submitButton = document.getElementById('submitButton');
-
-// $submitButton.click(function () {
-// 	event.preventDefault();
-// 	const userName = document.getElementById('name').val();
-// 	const userMessage = document.getElementById('message').val();
-// 	console.log(userMessage);
-// 	// axios
-// 	// 	.post('https://submit-form.com/4l4mtNaX', {
-// 	// 		message: userMessage,
-// 	// 		// 'g-recaptcha-response': grecaptcha.getResponse(),
-// 	// 		_email: {
-// 	// 			from: '' + userName + '',
-// 	// 			subject: ' Email Inquiry',
-// 	// 		},
-// 	// 	})
-// 	// 	.then(function (response) {
-// 	// 		console.log(response);
-// 	// 	})
-// 	// 	.catch(function (response) {
-// 	// 		console.error(response);
-// 	// 	});
-// });
-// $('#submitButton').click(function () {
-// 	$.post(
-// 		'https://submit-form.com/4l4mtNaX',
-// 		{
-// 			message: msgText,
-// 		},
-// 		null,
-// 		'json' // dataType must be set to json
-// 	).then(function (response) {
-// 		console.log(response);
-// 	});
-// 	// .catch(function (response) {
-// 	// 	console.error(response);
-// 	// });
-// });
+//click even for the submit button
+$('#submitButton').click(function (event) {
+	//get the values of the input fields
+	let name = $('#name').val();
+	let email = $('#emailAddress').val();
+	let emailMessage = $('#message').val();
+	$.post(
+		'https://submit-form.com/4l4mtNaX',
+		{
+			message:
+				' name: ' + name + ' email: ' + email + ' message: ' + emailMessage,
+		},
+		null,
+		'json'
+	)
+		.then(function (response) {
+			console.log(response);
+		})
+		.catch(function (response) {
+			console.log(error);
+		});
+});
 
 //remove inability to submit until after click recaptcha
 
-// function callback() {
-// 	$submitButton.removeAttribute('disabled');
-// }
+function verify() {
+	$('#submitButton').removeAttr('disabled');
+}
 
 // load "hello" file and then print out random hello
 // API didn't do what I liked, so I parsed how to say "hello" in different languages from https://fourtonfish.com/project/hellosalut-api/
