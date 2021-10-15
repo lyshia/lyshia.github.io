@@ -1,20 +1,42 @@
 const msgText = document.getElementById('message').innerText;
 
-$('#submitButton').click(function () {
-	$.post(
-		'https://submit-form.com/4l4mtNaX"',
-		{
-			message: msgText,
-		},
-		null,
-		'json' // dataType must be set to json
-	).then(function (response) {
-		console.log(response);
-	});
-	// .catch(function (response) {
-	// 	console.error(response);
-	// });
-});
+      document
+				.getElementById('submitButton')
+				.addEventListener('click', function () {
+					axios
+						.post('https://submit-form.com/4l4mtNaX', {
+							message: 'Hello, World',
+							'g-recaptcha-response': grecaptcha.getResponse(),
+						})
+						.then(function (response) {
+							console.log(response);
+						})
+						.catch(function (response) {
+							console.error(response);
+						});
+				});
+
+
+
+
+// $('#submitButton').click(function () {
+// 	$.post(
+// 		'https://submit-form.com/4l4mtNaX',
+// 		{
+// 			message: msgText,
+// 		},
+// 		null,
+// 		'json' // dataType must be set to json
+// 	).then(function (response) {
+// 		console.log(response);
+// 	});
+// 	// .catch(function (response) {
+// 	// 	console.error(response);
+// 	// });
+// });
+
+//remove inability to submit until after click recaptcha
+
 
 function callback() {
 	const submitButton = document.getElementById('submit-button');
