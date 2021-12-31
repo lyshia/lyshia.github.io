@@ -13,11 +13,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
 | Day 4 | MVP & Bug Fixes                              | Complete   |
 | Day 5 | Final Touches                                | Complete   |
-| Day 6 | Present                                      | Incomplete |
+| Day 6 | Present                                      | Complete   |
 
 ## Project Description
 
 I will be creating a single page application portfolio website with an about me, projects and contacts section. The page will be reactive, and scale based on the type of device being viewed from. End user will be able to view my projects on a carousel, and use a contact form if they wish to know more.
+
+-[Deployment] (https://lyshia.github.io)
 
 ## Wireframes
 
