@@ -29,6 +29,10 @@
 	color: #e5e8e7;
 }
 
+.links {
+	color: #e5e8e7;
+}
+
 .background {
 	position: relative;
 }
@@ -159,4 +163,10 @@ footer a {
 		flex: 3;
 		margin-right: 40px;
 	}
+}
+
+@media (min-width: 1028px) {
+  #helloWorld {
+    color: #717674;
+  }
 }

@@ -64,19 +64,57 @@ $('#logo').attr('src', 'img/chicken.png');
 
 //add icons to experience list
 const logos = [
-	'img/brands/angularjs.png',
-	'img/brands/bitbucket-48x48-2284628.png',
-	'img/brands/css-48x48-2284638.png',
-	'img/brands/git-48x48-2284657.png',
-	'img/brands/jira-48x48-2284680.png',
-	'img/brands/jquery-48x48-2284682.png',
-	'img/brands/nodejs-48x48-2284703.png',
-	'img/brands/python-48x48-2284717.png',
-	'img/brands/react-48x48-2284721.png',
+	{
+		name: 'Angular',
+		image: 'img/brands/angularjs.png'
+	},
+	{
+		name: 'Bitbucket',
+		image: 'img/brands/bitbucket-48x48-2284628.png'
+	},
+	{
+		name: 'CSS',
+		image: 'img/brands/css-48x48-2284638.png',
+	},
+	{
+		name: 'Django',
+		image: 'img/brands/django.png'
+	},
+	{
+		name: 'Git',
+		image: 	'img/brands/git-48x48-2284657.png'
+	},
+	{
+		name: 'Jira',
+		image: 	'img/brands/jira-48x48-2284680.png'
+	},
+	{
+		name: 'jQuery',
+		image: 'img/brands/jquery-48x48-2284682.png'
+	},
+
+	{
+		name: 'MongoDB',
+		image: 'img/brands/mongodb.png'
+	},
+	{
+		name: 'Node.js',
+		image: 'img/brands/nodejs-48x48-2284703.png'
+	},
+	{
+		name: 'Python',
+		image: 'img/brands/python-48x48-2284717.png'
+	},
+	{
+		name: 'React',
+		image: 'img/brands/react-48x48-2284721.png'
+	}
 ];
+
+
 //loop to show each brand i have experience with
 $.each(logos, function (index, logo) {
-	$('#experienceList').append('<li><img src=' + logo + '></li>');
+	$('#experienceList').append('<li title='+logo.name+'><img src=' + logo.image +'> </li>');
 });
 
 //object that has my social media icons and urls
